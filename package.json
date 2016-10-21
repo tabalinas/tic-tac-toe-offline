@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe-offline",
+  "version": "1.0.0",
+  "description": "Sample tic-tac-toe application working offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabalinas/tic-tac-toe-offline.git"
+  },
+  "keywords": [
+    "offline",
+    "serviceworker",
+    "appcache"
+  ],
+  "author": "Artem Tabalin <tabalinas@gmail.com> (http://tabalin.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabalinas/tic-tac-toe-offline/issues"
+  },
+  "homepage": "https://github.com/tabalinas/tic-tac-toe-offline#readme"
+}
