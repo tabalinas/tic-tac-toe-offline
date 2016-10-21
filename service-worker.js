@@ -27,16 +27,17 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-    console.info("fetching");
-
     event.respondWith(
         caches.match(event.request)
             .then(function(response) {
+                console.log("request:", event.request);
+
                 if (response) {
                     console.info("cache hit");
                     return response;
                 }
 
+                console.info("fetching");
                 return fetch(event.request);
             })
     );
