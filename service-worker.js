@@ -2,11 +2,11 @@
 var CACHE_NAME = 'tic-tac-toe-offline-v1';
 
 var urlsToCache = [
-    '/tic-tac-toe-offline/index.html',
-    '/tic-tac-toe-offline/style.css',
-    '/tic-tac-toe-offline/tic-tac-toe.js',
-    '/tic-tac-toe-offline/register-service-worker.js',
-    '/tic-tac-toe-offline/service-worker.js'
+    '/',
+    '/style.css',
+    '/tic-tac-toe.js',
+    '/register-service-worker.js',
+    '/service-worker.js'
 ];
 
 self.addEventListener('install', function(event) {
