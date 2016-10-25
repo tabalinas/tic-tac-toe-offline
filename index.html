@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html manifest="tic-tac-toe.appcache" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Tic Tac Toe</title>
@@ -9,7 +9,7 @@
     <h1>Tic Tac Toe</h1>
     <div id="game"></div>
 
-    <script src="register-service-worker.js"></script>
+    <!--script src="register-service-worker.js"></script-->
     <script src="tic-tac-toe.js"></script>
     <script>
         new TicTacToe(document.getElementById("game")).start();
