@@ -2,7 +2,7 @@ CACHE MANIFEST
 # v1 2016-10-01
 
 CACHE:
-tic-tac-toe-offline/index.html
-tic-tac-toe-offline/style.css
-tic-tac-toe-offline/tic-tac-toe.js
+index.html
+style.css
+tic-tac-toe.js
 
